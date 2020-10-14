@@ -12,7 +12,7 @@ public class FirstClass {
        heavyNotebook.checkWeight();
        heavyNotebook.checkYearAndPrice();
 
-       Notebook oldNotebook = new Notebook(2100,100,2008);
+       Notebook oldNotebook = new Notebook(2100,110,2008);
        System.out.println(oldNotebook.weight + " " + oldNotebook.price);
        oldNotebook.checkPrice();
        oldNotebook.checkWeight();

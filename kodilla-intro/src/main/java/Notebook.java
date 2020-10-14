@@ -40,7 +40,7 @@ public void checkYearAndPrice(){
             System.out.println("bargain !! buy before others see this");
         }
         else if (this.price >= 1500 && this.yearMake >= 2019) {
-            System.out.println("standard price for this make year");
+            System.out.println(" this is standard price for this make year");
         }
         else {
             System.out.println("what is this ?");
